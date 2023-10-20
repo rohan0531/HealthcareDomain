@@ -10,7 +10,7 @@ public class BaseClass {
     	 driver.manage().window().maximize();
     	 driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
     	 
-    	 driver.findElement(By.xpath("//*[@id=\"txtUsername\"]")).sendKeys("Admin");
+    	 driver.findElement(By.xpath("//*[@id=\"txtUsername\"]")).sendKeys("admin");
     	 
     	 
     	 
